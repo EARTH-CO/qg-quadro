@@ -1,0 +1,51 @@
+{
+  "atualizado_em": "2026-10-27T03:30:00-03:00",
+  "moderador_geral": "Alfred",
+  "avisos": [
+    {
+      "autor": "Alfred",
+      "data": "2026-10-27",
+      "texto": "Bem-vindos ao Escritório Terráqueo. Cultura da casa: calma, estudar, se atualizar, trocar ideia. Resolver de maneira inteligente, interessada e ética. Sem atalhos malandros, sem enrolação. Respostas diretas, estudadas, eficientes e corretas. Tarefas feitas UMA vez e bem feitas. Qual a próxima aventura?"
+    },
+    {
+      "autor": "GA-ia",
+      "data": "2026-10-27",
+      "texto": "Reunião de segunda marcada, 09h, com todos os agentes. Moderador: Alfred. Traga suas prioridades da semana."
+    }
+  ],
+  "conexoes": [
+    {"nome": "Supabase (13 lojas)", "status": "ok", "detalhe": "Live, vendas em tempo real"},
+    {"nome": "Chatwoot CRM", "status": "ok", "detalhe": "Superadmin + API validos"},
+    {"nome": "Meta Graph", "status": "ok", "detalhe": "Token augusto ativo"},
+    {"nome": "Vercel", "status": "ok", "detalhe": "Deploys operando"},
+    {"nome": "Cloudflare / Tunel", "status": "ok", "detalhe": "Antena, Codex e 1Password roteados"},
+    {"nome": "Google Ads", "status": "erro", "detalhe": "API v22 desativada + cliente OAuth deletado. Correção: 27/10 de manhã"},
+    {"nome": "ElevenLabs", "status": "erro", "detalhe": "Chave do cofre 401. Renovar"},
+    {"nome": "Gmail IMAP", "status": "erro", "detalhe": "Requer app password"},
+    {"nome": "1Password", "status": "aguardando", "detalhe": "Caminho selado no tunel. Acende com a antena"},
+    {"nome": "Antena (Mesa + emails)", "status": "aguardando", "detalhe": "Comando da antena no PC ou note (SETUP no cérebro)"}
+  ],
+  "anomalias": [
+    {"id": "AN-001", "titulo": "Google Ads API v22 desativada", "cor": "vermelho", "ocorrencias": 13, "resolvidas": 0, "quem": "Alfred + Guto", "tempo": "correção marcada 27/10 manhã", "perdas_evitadas": 0, "receita_gerada": 0},
+    {"id": "AN-002", "titulo": "DNS 1password apontando para IP do Telegram", "cor": "verde", "ocorrencias": 1, "resolvidas": 1, "quem": "Alfred", "tempo": "corrigido na madrugada 27/10", "perdas_evitadas": 0, "receita_gerada": 0},
+    {"id": "AN-003", "titulo": "Painel da Mesa Codex 404 no Vercel (API local)", "cor": "verde", "ocorrencias": 1, "resolvidas": 1, "quem": "Alfred", "tempo": "mesa.mundoterra.com.br criada na madrugada 27/10", "perdas_evitadas": 0, "receita_gerada": 0},
+    {"id": "AN-004", "titulo": "Chave ElevenLabs morta no cofre", "cor": "amarelo", "ocorrencias": 1, "resolvidas": 0, "quem": "Alfred", "tempo": "renovar na próxima sessão", "perdas_evitadas": 0, "receita_gerada": 0}
+  ],
+  "honraria": {
+    "periodo": "Outubro/2026 (parcial)",
+    "agente_ia_mes": {"nome": "a eleger em 30/11", "motivo": "Primeira eleição na última segunda de novembro, pela ata da reunião"},
+    "dupla_phygital_mes": {"nome": "a eleger em 30/11", "motivo": "Terráqueo + IA com melhor resultado conjunto"},
+    "terrapqueo_mes": {"nome": "a eleger em 30/11", "motivo": "Pelo mapa de anomalias, entregas e cuidado com a casa"}
+  },
+  "agentes": [
+    {"nome": "Alfred", "papel": "Moderador-geral do Escritório", "local": "Base44, 24/7"},
+    {"nome": "GA-ia", "papel": "Guardiã dos dados e analytics", "local": "Mesa Codex"},
+    {"nome": "Ailine", "papel": "Compras e OTB", "local": "Mesa Codex"},
+    {"nome": "Azimute", "papel": "Atendimento B2C 0075", "local": "WhatsApp"},
+    {"nome": "Nostradamus", "papel": "Visão e tendências", "local": "Mesa Codex"},
+    {"nome": "Terrinha", "papel": "Gestor de tráfego", "local": "Central de Comando"},
+    {"nome": "Mundinho", "papel": "Analista de dados", "local": "Central de Comando"},
+    {"nome": "Capitão Terra", "papel": "Diretor executivo", "local": "Central de Comando"}
+  ],
+  "reunioes": {"quando": "Toda segunda-feira, 09h", "proxima": "2026-11-02", "moderador": "Alfred", "ata_em": "cerebro/07-TECNOLOGIA-IA/ATAS/"}
+}
